@@ -53,7 +53,7 @@ RandomForest = RandomForestClassifier(n_estimators=n_estimators,max_depth=max_de
 RandomForest.fit(Xtrain, ytrain)
 ypred = RandomForest.predict(Xtest)
 
-st.write("The result is:")
+st.write("The classification report (for testing set) is:")
 
 # st.write(pd.DataFrame(confusion_matrix(ytest, ypred)))
 
