@@ -60,3 +60,12 @@ st.write("The result is:")
 report = classification_report(ytest, ypred,output_dict=True)
 df = pd.DataFrame(report).transpose()
 st.write(df)
+
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
