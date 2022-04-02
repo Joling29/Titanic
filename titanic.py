@@ -5,7 +5,7 @@ import streamlit as st
 st.title('CLASSIFICATION')
 
 st.sidebar.write("""
-A classification demo using titanic dataset
+A classification demo using [titanic](https://www.kaggle.com/c/titanic) dataset
 """)
 
 st.sidebar.write ("For more info, please contact:")
